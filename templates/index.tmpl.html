@@ -1,0 +1,28 @@
+<html>
+  {{template "header.tmpl.html"}}
+<body>
+  {{template "nav.tmpl.html"}}
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="lang-logo">
+      <img src="/static/lang-logo.png">
+    </a>
+    <h1>Hello! Curious why you're seeing this?</h1>
+      <p>This is a subdomain takeover. You were referencing a subdomain of herokuapp.com that didn't have an app setup. So I set one up for you.</p>
+      <a type="button" class="btn btn-lg btn-default" href="https://developer.mozilla.org/en-US/docs/Web/Security/Subdomain_takeovers"><span class="glyphiconglyphicon-flash"></span> Learn more about a subdomain takeovers</a>
+      <a type="button" class="btn btn-lg btn-primary" href="https://en.wikipedia.org/wiki/Pizza"><span class="glyphiconglyphicon-download"></span> Learn more about the best food ever</a>
+  </div>
+</div>
+<div class="container">
+  <div class="alert alert-info text-center" role="alert">
+      Threat actors love subdomain takeovers! Especially for phishing, since it allows them to use a trusted domain to host their campaign.
+  </div>
+  <hr>
+    <div class="alert alert-info text-center" role="alert">
+      Thanks for your time. Eat more pizza!
+  </div>
+</div>
+
+</body>
+</html>
